@@ -54,26 +54,24 @@ public class EjerciciosOperadores {
         if (5 == 2 || (2 > 1)) {
             estado = true;
             System.out.println(estado);
-        }else{
-            
         }
 
     }
 
     public void ejercicio5() {
-double resultado;
-resultado = 8/2*4-3+5*7;
-System.out.println(resultado);
+        double resultado;
+        resultado = 8 / 2 * 4 - 3 + 5 * 7;
+        System.out.println(resultado);
     }
 
     public void ejercicio6() {
-int ladoCuadrado = 8;
-System.out.println("el area del cuadrado es = "+ (ladoCuadrado*ladoCuadrado));
-System.out.println("el perimetro del cuadrado es = "+ (ladoCuadrado*4));
-int baseTriangulo = 9;
-int alturaTriangulo = 8;
-System.out.println("el area del cuadrado es = "+ (ladoCuadrado*ladoCuadrado));
-System.out.println("el perimetro del cuadrado es = "+ (ladoCuadrado*4));
+        int ladoCuadrado = 8;
+        System.out.println("el area del cuadrado es = " + (ladoCuadrado * ladoCuadrado));
+        System.out.println("el perimetro del cuadrado es = " + (ladoCuadrado * 4));
+        int baseTriangulo = 9;
+        int alturaTriangulo = 8;
+        System.out.println("el area del cuadrado es = " + (ladoCuadrado * ladoCuadrado));
+        System.out.println("el perimetro del cuadrado es = " + (ladoCuadrado * 4));
 
     }
 }

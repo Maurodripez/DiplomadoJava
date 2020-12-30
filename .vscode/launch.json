@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EjerciciosVariables",
+            "request": "launch",
+            "mainClass": "EjerciciosVariables",
+            "projectName": "Java_e29c739e"
+        },
+        {
+            "type": "java",
             "name": "Launch EjerciciosOperadores",
             "request": "launch",
             "mainClass": "EjerciciosOperadores",
