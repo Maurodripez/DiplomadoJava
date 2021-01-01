@@ -2,6 +2,7 @@ public class CiclosFor {
     public static void main(String[] args) {
         CiclosFor ejercicios = new CiclosFor();
         ejercicios.Factorial();
+        ejercicios.Divisores();
     }
 
     public void Factorial() {
@@ -11,5 +12,18 @@ public class CiclosFor {
             resultado = resultado * i;
         }
         System.out.println("el factorial de " + factorial + " es = " + resultado);
+    }
+
+    public void Divisores() {
+        int numero = 15;
+        for (int i = 1; i < 15; i++) {
+
+            if (numero % i == 0) {
+                System.out.println(i + " es divisor de 15\n");
+            }
+        }
+    }
+    public void NumerosPerfectos(){
+        
     }
 }
