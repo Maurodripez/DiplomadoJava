@@ -64,7 +64,6 @@ public class Matrices {
         System.out.println("la primera fila es: " + matriz[0][0] + "," + matriz[1][0] + "," + matriz[2][0]);
         System.out.print("la segunda columna es:\n" + matriz[1][0] + "\n" + matriz[1][1] + "\n" + matriz[1][2] + "\n"
                 + matriz[1][3]);
-        System.out.println(
-                "la tercera fila es: " + matriz[2][0] + "," + matriz[2][1] + "," + matriz[2][2]);
+        System.out.println("la tercera fila es: " + matriz[2][0] + "," + matriz[2][1] + "," + matriz[2][2]);
     }
 }
