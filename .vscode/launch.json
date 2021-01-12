@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Vectores",
+            "request": "launch",
+            "mainClass": "Vectores",
+            "projectName": "Java_e29c739e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Condicionales",
+            "request": "launch",
+            "mainClass": "Condicionales",
+            "projectName": "Java_e29c739e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Case",
+            "request": "launch",
+            "mainClass": "Case",
+            "projectName": "Java_e29c739e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ciudad",
+            "request": "launch",
+            "mainClass": "Ciudad",
+            "projectName": "Java_e29c739e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_e29c739e"
+        }
+    ]
+}
